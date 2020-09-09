@@ -1,0 +1,3 @@
+This program uses a Markov Decision Process to determine the best square to move to given the rewards. It uses value iteration to find the optimal policy for horizon 6 (V^6) without discount and for an infinite horizon (V*) with discount 0.96.
+
+There's a 70% chance that the movement is successful, 20% chance that movement in the opposite direction will occur, and a 10% chance that no movement will occur. Attempting to move into a wall will cause no movement to occur.
